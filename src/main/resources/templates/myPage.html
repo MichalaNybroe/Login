@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th=http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>myPage</title>
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1>This page!</h1>
+        <div>
+            <li>
+                <a href="myPage">My Page</a>
+            </li>
+            <li>
+                <a href="Your Grades">Your Grades</a>
+            </li>
+            <li>
+                <a href="Guess the Number">Guess Number</a>
+            </li>
+            <li>
+                <a href="Quote of the Day">Quote of the Day</a>
+            </li>
+        </div>
+    </header>
+
+    <div id="content">
+        <h2 th:text="#{user.name}">Welcome </h2>
+        <p>We hope you are enjoying our page</p>
+        <img src="../static/woman-6184474_1280.png" height="1280" width="1280" alt="Sorry, your face is unavailable right now!"/>
+
+        <div>
+            <h3>Contact info</h3>
+
+            <div class="contactPart">
+                <p>Email</p>
+                <p>hey@hey</p>
+            </div>
+            <div class="contactPart">
+                <p>Phone</p>
+                <p>+zz xx xx xx xx</p>
+            </div>
+            <div>
+                <p>Semester: </p>
+                <p>x.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>Kontaktoplysninger</p>
+            <p>Address: Meinungsgade 8, 2200 KBH</p>
+            <p>
+            <p>Number: </p>
+            <a href="tel: 66778811">66778811</a>
+            </p>
+            <p>
+            <p>Mail: </p>
+            <a href="mailto: thisis@us.dk">thisis@us.dk</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
