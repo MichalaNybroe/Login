@@ -8,4 +8,24 @@ public class MyController {
     public String index() {
         return "index";
     }
+
+    @GetMapping("/myPage")
+    public String myPage() {
+        return "myPage";
+    }
+
+    @GetMapping("/yourGrades")
+    public String yourGrades() {
+        return "yourGrades";
+    }
+
+    @GetMapping("/guessNumber")
+    public String guessNumber() {
+        return "guessNumber";
+    }
+
+    @GetMapping("/Quote")
+    public String quote() {
+        return "quoteOfDay";
+    }
 }
