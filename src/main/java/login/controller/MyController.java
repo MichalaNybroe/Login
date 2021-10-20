@@ -28,4 +28,9 @@ public class MyController {
     public String quote() {
         return "quoteOfDay";
     }
+
+    @GetMapping("/createUser")
+    public String createUser(){
+        return "myPage";
+    }
 }
