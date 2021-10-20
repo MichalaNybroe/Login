@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Home Page</title>
+    <link rel="stylesheet" href="../static/index.css">
 </head>
 <body>
 <div id="body">
     <div id="wrapper">
         <header>
-            <div>
+            <div id="header">
                 <a href="/">
                     <img src="../static/images/logo1.png"/>
                 </a>
-                <h1>Home Page</h1>
+                <h1>Little Birdie</h1>
             </div>
 
-            <nav>
+            <nav id="headerNav">
                 <ul>
                     <li><a href="/">Home Page</a></li>
                     <li><a href="/myPage">Profile Page</a></li>
@@ -24,6 +25,7 @@
             </nav>
         </header>
 
+<div id="content">
         <div>
             <form method="post" action="/myPage">
                 <p>User name</p>
@@ -34,9 +36,10 @@
                 <a href="/createUser">Create User</a>
             </form>
         </div>
+</div>
 
         <footer>
-            <nav>
+            <nav id="footerNav">
                 <ul>
                     <li><a href="/">Home Page</a></li>
                     <li><a href="/myPage">Profile Page</a></li>
