@@ -17,6 +17,11 @@ public class MyController {
         return "index";
     }
 
+    @GetMapping("/myPage")
+    public String mypage() {
+        return "myPage";
+    }
+/*
     @PostMapping("/myPage")
     public String login(Model model, String username, String password){
         String query = "SELECT " + username + ", " + password + "FROM users";
@@ -30,12 +35,22 @@ public class MyController {
         return "failedLogin";
     }
 
-    @PostMapping("/createUser")
+ */
+
+    @GetMapping("/createUser")
+    public String creatingUser() {
+        System.out.println("hej");
+        return "createUser";
+    }
+
+    /*@PostMapping("/createUser")
     public String createUser(Model model, @RequestParam String username, @RequestParam String password){
         us.createUser(username, password);
         model.addAttribute("user", us.getUser());
         return "index";
     }
+
+     */
 
     @GetMapping("/yourGrades")
     public String yourGrades() {
