@@ -1,0 +1,36 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+}
+
+#header{
+    width: 100%;
+    display: inline-block;
+}
+
+#header img{
+    width: 25%;
+    float: left;
+    margin: 5% 5% 5% 5%;
+    width: 10%;
+}
+
+#header h1{
+    width: 75%;
+}
+
+#content{
+    background-color: floralwhite;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+}
